@@ -9,7 +9,6 @@
 #include <ifaddrs.h>
 #include <unistd.h>
 #include <netdb.h>
-#include <wait.h>
 #include <signal.h>
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
