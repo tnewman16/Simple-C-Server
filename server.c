@@ -93,7 +93,7 @@ void start_server(server_args *args) {
 
 void print_request(char *ip, char *time) {
 	char str[200];
-	sprintf(str, "%d. From %s handled at %s", req_count+1, ip, time);
+	sprintf(str, "%d. From %s received at %s", req_count+1, ip, time);
 
 	XClearArea(display, win,
 		(request_text_x - 5), (request_text_y + request_text_y_start - TEXT_VERT_SPACE)+1,
